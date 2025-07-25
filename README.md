@@ -89,4 +89,5 @@ JOIN Usage_Log u ON c.CustomerID = u.CustomerID
 GROUP BY c.CustomerID, c.Gender
 ORDER BY Total_Revenue DESC;
 
+
 ## Challenges Faced
