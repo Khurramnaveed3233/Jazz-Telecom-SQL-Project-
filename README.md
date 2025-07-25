@@ -89,39 +89,4 @@ JOIN Usage_Log u ON c.CustomerID = u.CustomerID
 GROUP BY c.CustomerID, c.Gender
 ORDER BY Total_Revenue DESC;
 
-## 🚧 Challenges Faced & Solutions
-
-### 1. Handling Inactive Months
-- **Problem:** Missing user activity data caused inconsistencies in monthly trend analysis.
-- **Solution:** Applied `LEFT JOIN` with a calendar table and used `COALESCE()` to ensure complete month-by-month data continuity, even when users had no recorded activity.
-
-### 2. Detecting Customer Churn
-- **Problem:** The dataset lacked an explicit churn indicator.
-- **Solution:** Created a `CTE` (Common Table Expression) to calculate each customer’s last active date. Then used `DATEDIFF()` to flag users inactive for more than 30 days as potential churn cases.
-
-### 3. Tracking Latest Plan Type
-- **Problem:** Required the most recent plan for each customer after multiple plan changes.
-- **Solution:** Used `ROW_NUMBER()` on the `PlanChangeLog` table, partitioned by `CustomerID` and ordered by `ChangeDate DESC` to isolate the latest plan per user efficiently.
-
----
-
-## 🧠 Final Thoughts
-
-This project showcases how **pure SQL** can be used to drive **real business impact**—without the need for dashboards or external analytics tools. It highlights essential data analysis skills including:
-
-- ✅ **Data modeling and architecture**
-- ✅ **Writing optimized, modular SQL queries**
-- ✅ **Translating raw data into business value and strategic insight**
-
-By combining **SQL expertise** with a strong understanding of **telecom business challenges**, this project demonstrates the power of data-driven decision-making in the real world.
-
----
-
-## 📬 Let’s Connect
-
-**Khurram Naveed**  
-📧 khurramnaveed4545@gmail.com  
-🔗 [LinkedIn Profile](#)
-
-
-
+## Challenges Faced
