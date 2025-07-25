@@ -1,5 +1,7 @@
 # Customer Behavior & Revenue Optimization Analysis – Jazz Telecom (SQL Project)
 
+![WhatsApp Image 2025-07-24 at 11 54 14 PM (2)](https://github.com/user-attachments/assets/82507cf8-8baf-41c9-bfe9-99613592f1d6)
+
 This project replicates real-world data analytics at **Jazz Pakistan**, one of the leading telecom providers in Pakistan. The goal was to use SQL to uncover actionable insights from customer data, service usage patterns, and revenue metrics to help solve key business problems such as churn, service profitability, and customer segmentation.
 
 
@@ -90,4 +92,3 @@ GROUP BY c.CustomerID, c.Gender
 ORDER BY Total_Revenue DESC;
 
 
-## Challenges Faced
