@@ -91,37 +91,5 @@ ORDER BY Total_Revenue DESC;
 
 --- 
 
-## 🚧 Challenges Faced & Solutions
 
-### 1. Handling Inactive Months
-- **Problem:** Missing user activity data caused inconsistencies in monthly trend analysis.
-- **Solution:** Applied `LEFT JOIN` with a calendar table and used `COALESCE()` to ensure complete month-by-month data continuity.
-
-### 2. Detecting Customer Churn
-- **Problem:** The dataset lacked an explicit churn indicator.
-- **Solution:** Built a Common Table Expression (CTE) to calculate last usage per customer and used `DATEDIFF()` to identify users inactive for 30+ days.
-
-### 3. Tracking Latest Plan Type
-- **Problem:** Needed to extract each customer's most recent plan after multiple plan changes.
-- **Solution:** Used `ROW_NUMBER()` on the `PlanChangeLog` table, partitioned by `CustomerID` and ordered by `ChangeDate DESC`, to isolate the latest plan per user.
-
----
-
-## 🧠 Final Thoughts
-
-This project demonstrates how to solve **real-world business problems using pure SQL**—no dashboards, no external analytics tools. It showcases strong skills in:
-- Data modeling
-- Query building
-- Insight extraction
-- Business decision support
-
-By blending technical SQL knowledge with practical business acumen, this project proves the value of thoughtful data analysis in the telecom domain.
-
----
-
-## 📬 Let’s Connect
-
-**Khurram Naveed**  
-📧 khurramnaveed4545@gmail.com  
-🔗 [LinkedIn Profile](#)
 
