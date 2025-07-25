@@ -101,3 +101,7 @@ This analysis answers **12 critical business questions**:
 - **Solution:** Used `ROW_NUMBER()` on the `PlanChangeLog` table, partitioned by `CustomerID` and ordered by `ChangeDate DESC` to isolate the latest plan per user efficiently.
 
 ---
+
+### 📌 Sample Query – Top 5 Revenue Customers
+
+--- 
