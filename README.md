@@ -92,3 +92,33 @@ FROM Jazz_Telecom_Customers c
 JOIN Usage_Log u ON c.CustomerID = u.CustomerID
 GROUP BY c.CustomerID, c.Gender
 ORDER BY Total_Revenue DESC;
+
+## 🚧 Challenges Faced & Solutions
+
+1. **Handling Inactive Months**  
+   *Problem:* Missing user activity data caused inconsistencies in monthly trend analysis.  
+   *Solution:* Applied LEFT JOIN with a calendar table and used COALESCE() to ensure complete month-by-month data continuity.
+
+2. **Detecting Customer Churn**  
+   *Problem:* The dataset lacked an explicit churn indicator.  
+   *Solution:* Built a Common Table Expression (CTE) to calculate last usage per customer and used DATEDIFF() to identify users inactive for 30+ days.
+
+3. **Tracking Latest Plan Type**  
+   *Problem:* Needed to extract each customer's most recent plan after multiple plan changes.  
+   *Solution:* Used ROW_NUMBER() on the PlanChangeLog table, partitioned by CustomerID and ordered by ChangeDate DESC, to isolate the latest plan per user.
+
+## 🧠 Final Thoughts
+
+This project showcases how pure SQL can be used to drive real business impact—without the need for dashboards or external tools. It reflects strong skills in:
+
+✅ Data modeling and architecture  
+✅ Writing optimized, modular SQL queries  
+✅ Translating raw data into business value and strategic insight  
+
+By combining SQL expertise with deep business understanding, this project demonstrates the powerful role of data analytics in the telecom sector.
+
+## 📬 Let's Connect
+
+**Khurram Naveed**  
+📧 khurramnaveed4545@gmail.com  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
