@@ -87,3 +87,17 @@ This analysis answers **12 critical business questions**:
 ## Challenges Faced
 
 --- 
+
+### 1. Handling Inactive Months
+- **Problem:** Missing user activity data caused inconsistencies in monthly trend analysis.
+- **Solution:** Applied `LEFT JOIN` with a calendar table and used `COALESCE()` to ensure complete month-by-month data continuity, even when users had no recorded activity.
+
+### 2. Detecting Customer Churn
+- **Problem:** The dataset lacked an explicit churn indicator.
+- **Solution:** Created a `CTE` (Common Table Expression) to calculate each customer’s last active date. Then used `DATEDIFF()` to flag users inactive for more than 30 days as potential churn cases.
+
+### 3. Tracking Latest Plan Type
+- **Problem:** Required the most recent plan for each customer after multiple plan changes.
+- **Solution:** Used `ROW_NUMBER()` on the `PlanChangeLog` table, partitioned by `CustomerID` and ordered by `ChangeDate DESC` to isolate the latest plan per user efficiently.
+
+---
