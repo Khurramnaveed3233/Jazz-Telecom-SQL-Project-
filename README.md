@@ -81,15 +81,7 @@ This analysis answers **12 critical business questions**:
 - `DATEDIFF()` – Churn detection via last usage
 
 ### 📌 Sample Query – Top 5 Revenue Customers
-```sql
-SELECT TOP 5 
-    c.CustomerID, 
-    c.Gender,
-    SUM(u.TotalRevenue) AS Total_Revenue
-FROM Jazz_Telecom_Customers c
-JOIN Usage_Log u ON c.CustomerID = u.CustomerID
-GROUP BY c.CustomerID, c.Gender
-ORDER BY Total_Revenue DESC;
+
 
 ---
 
