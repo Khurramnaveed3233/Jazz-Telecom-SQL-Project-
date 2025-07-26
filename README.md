@@ -2,7 +2,6 @@
 
 ![WhatsApp Image 2025-07-24 at 11 54 14 PM (2)](https://github.com/user-attachments/assets/82507cf8-8baf-41c9-bfe9-99613592f1d6)
 
-# 📊 Unlocking Telecom Insights: SQL-Powered Analytics for Jazz Pakistan
 
 ## 🧠 About the Project  
 This SQL-powered data portfolio project simulates real-world telecom operations for **Jazz Pakistan**, one of the leading telecom providers in the country. It focuses on analyzing customer behavior, service utilization, revenue trends, and churn prediction using SQL queries and techniques, providing valuable insights for business decision-making.
