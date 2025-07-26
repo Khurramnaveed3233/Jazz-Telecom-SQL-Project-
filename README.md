@@ -154,6 +154,7 @@ Such analysis is crucial for **data-driven telecom companies like Jazz Pakistan*
 
 ## About Me
 
-
+**Khurram Naveed**  
+Aspiring Business Intelligence Analyst | Power BI | Excel | SQL  
 
 
