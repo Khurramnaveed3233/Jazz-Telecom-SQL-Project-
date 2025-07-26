@@ -2,125 +2,158 @@
 
 ![WhatsApp Image 2025-07-24 at 11 54 14 PM (2)](https://github.com/user-attachments/assets/82507cf8-8baf-41c9-bfe9-99613592f1d6)
 
-# 📊 Customer Behavior & Revenue Optimization Analysis – Jazz Telecom (SQL Project)
+# 📊 Unlocking Telecom Insights: SQL-Powered Analytics for Jazz Pakistan
 
-This project replicates a real-world data analytics case study for **Jazz Pakistan**, a leading telecom provider. It uses SQL to uncover deep insights from customer behavior, usage patterns, and revenue metrics. The goal is to help solve key business challenges such as churn reduction, revenue optimization, and customer segmentation through purely data-driven approaches.
+## 🧠 About the Project  
+This SQL-powered data portfolio project simulates real-world telecom operations for **Jazz Pakistan**, one of the leading telecom providers in the country. It focuses on analyzing customer behavior, service utilization, revenue trends, and churn prediction using SQL queries and techniques, providing valuable insights for business decision-making.
 
-## 🧠 About the Project
+---
 
-In the competitive telecom market, retaining customers and maximizing revenue require accurate, actionable insights. This project explores historical customer data from Jazz to identify churn patterns, usage behaviors, and high-revenue segments using advanced SQL techniques. It demonstrates how data can be used as a strategic tool for decision-making.
+## ❓ Problem Statement  
+Telecom companies like Jazz often struggle with:
+- Identifying churn signals early  
+- Understanding usage trends across services  
+- Pinpointing top revenue-generating segments  
+- Optimizing plan offerings and retention strategies  
 
-## ❓ Problem Statement
+This project addresses these pain points through structured SQL-driven data analysis.
 
-Jazz Pakistan faces several key business problems:
-- Rising **customer churn** in a saturated market
-- Limited visibility into **customer value** and **service preferences**
-- Need to identify **inactive users** and reduce **revenue leakage**
-- Inefficiencies in plan change tracking and **customer migration trends**
+---
 
-This project provides solutions to these problems using structured telecom data and pure SQL logic.
+## ✅ Business Questions Solved with SQL + Insights & Recommendations
 
-## ✅ Problems Solved (Business Questions Answered)
+### 1. 📈 What is the Monthly ARPU (Average Revenue Per User)?
+**Insight:** Revenue fluctuates across months, with some months showing noticeably higher average spend.  
+**Recommendation:** Use high ARPU months to replicate promotional or pricing strategies that worked.
 
-This project answers the following **12 key business questions** using SQL:
+---
 
-1. What is the Monthly ARPU (Average Revenue Per User)?
-2. Who are the Top 5 Revenue-Generating Customers?
-3. Which Gender Generates the Most Revenue?
-4. What is the Churn Rate Over Time?
-5. Monthly Trend in Call vs Data Usage
-6. Which Service is Most Utilized: Call, SMS, or Data?
-7. Are Prepaid or Postpaid Users More Profitable?
-8. Which Gender Has the Highest Churn Rate?
-9. How Many Users Switched Between Prepaid and Postpaid Plans?
-10. What is the Latest Plan Type per Customer?
-11. Who Are the Inactive Users (Zero Usage in a Month)?
-12. What is the Monthly Data Usage Trend by Plan Type?
+### 2. 👑 Who are the Top 5 Revenue-Generating Customers?
+**Insight:** A small portion of customers generate a large part of the revenue.  
+**Recommendation:** Retain and reward high-value users with loyalty programs or exclusive offers.
 
-## 📈 Impact of the Project
+---
 
-- **Improved Retention**: Churn detection logic allows early identification of at-risk customers
-- **Revenue Optimization**: Focused insights on high-revenue users and plan profitability
-- **Smarter Segmentation**: Behavior-based targeting by gender, region, and plan type
-- **Enhanced Planning**: Understanding service usage shifts (e.g., increased data consumption)
-- **Product Development**: Informed decisions for data bundles, loyalty programs, and upgrade paths
+### 3. 🌍 Which regions or genders generate the most revenue?
+**Insight:** Male users in cities like Lahore and Islamabad show higher average charges.  
+**Recommendation:** Tailor pricing or marketing strategies for high-performing demographics and regions.
 
-## 💡 Key Insights
+---
 
-- 📌 **Postpaid users** have significantly higher ARPU than prepaid users
-- 📌 The **top 5 customers** contribute nearly **20% of total revenue**, signaling concentration risk
-- 📌 **Male users** generate more revenue but also show a **higher churn rate**
-- 📌 Churn is often preceded by **low or zero usage months**
-- 📌 **Data usage** is growing rapidly compared to calls and SMS
-- 📌 A high number of users switch **from prepaid to postpaid**, showing migration potential
-- 📌 Several users are **inactive for multiple months**, highlighting re-engagement opportunities
+### 4. 🧍‍♂️ What is the customer churn rate over time?
+**Insight:** Several customers show no usage for over 2 months — signaling churn.  
+**Recommendation:** Trigger reactivation campaigns or exit surveys for these users.
 
-## 🧾 Strategic Recommendations
+---
 
-- 🎯 Implement **loyalty programs** for high-value users to retain top revenue contributors
-- 🎯 Develop an **early warning system** for churn using inactivity or usage drop patterns
-- 🎯 Launch **data-heavy plans** to satisfy increasing demand for mobile internet
-- 🎯 Simplify **plan upgrade processes** to support prepaid-to-postpaid migration
-- 🎯 Re-engage dormant users with **targeted promotions and personalized campaigns**
-- 🎯 Use **demographic and regional segmentation** for marketing and offers
+### 5. 📞📶 What are the monthly trends in call minutes vs. data usage?
+**Insight:** Data usage is rising faster than call minutes over time.  
+**Recommendation:** Focus on high-speed data plans and bundles to match user demand.
+
+---
+
+### 6. 📊 Which services (Call, SMS, Data) are most used?
+**Insight:** Data dominates usage patterns, while SMS is declining.  
+**Recommendation:** Prioritize internet-focused plans and consider phasing out unused SMS bundles.
+
+---
+
+### 7. 💰 Are Prepaid or Postpaid users more profitable?
+**Insight:** Postpaid users show higher ARPU on average.  
+**Recommendation:** Upsell prepaid users into postpaid plans with attractive packages.
+
+---
+
+### 8. 🚻 Which gender has a higher churn rate?
+**Insight:** Female users have a slightly higher churn rate in this dataset.  
+**Recommendation:** Investigate the causes and develop engagement strategies tailored to female users.
+
+---
+
+### 9. 🔁 How many customers switched plan types?
+**Insight:** Several customers moved between prepaid and postpaid within months.  
+**Recommendation:** Monitor migration patterns to improve retention within each plan type.
+
+---
+
+### 10. 🆕 What is the latest plan type per customer?
+**Insight:** Some users switched plans multiple times, indicating dissatisfaction or exploration.  
+**Recommendation:** Streamline offerings or improve customer onboarding to reduce switching frequency.
+
+---
+
+### 11. ❌ Who are the inactive customers (no usage)?
+**Insight:** A portion of the customer base had zero activity in a full billing cycle.  
+**Recommendation:** Flag these users for churn prevention efforts or alternative offers.
+
+---
+
+### 12. 📉 What is the monthly data usage trend by plan type?
+**Insight:** Postpaid users consume more data compared to prepaid users.  
+**Recommendation:** Invest in unlimited or larger data plans for postpaid users to maximize retention.
+
+---
+
+## 📊 Impact of the Project
+
+- **🔍 Improved Customer Understanding**  
+  Segment-wise insights to design targeted marketing campaigns.
+
+- **💸 Optimized Revenue**  
+  Identified top spenders and high ARPU months.
+
+- **🛑 Reduced Churn**  
+  Early churn signals allow timely retention strategies.
+
+- **🔄 Better Plan Management**  
+  Plan migration patterns help evaluate offering performance.
+
+---
 
 ## 🛠️ Tools & Techniques
 
-- **Environment:** SQL Server
-- **Data Tables Used:**
-  - `Jazz_Telecom_Customers` – Customer demographics and plan type
-  - `Usage_Log` – Monthly usage details for calls, SMS, and data
-  - `PlanChangeLog` – Record of historical plan changes
+- **SQL Server**
+- **Structured Tables:**
+  - `Jazz_Telecom_Customers.sql`
+  - `Usage_Log.sql`
+  - `PlanChangeLog.sql`
 
-### 🧮 SQL Techniques Applied
+### SQL Concepts Used:
 
-- `JOIN`, `LEFT JOIN`, `INNER JOIN` – For connecting and aggregating data
-- `SUM()`, `AVG()`, `COUNT()` – Revenue and usage metrics calculations
-- `CASE WHEN` – Conditional logic for segmentation
-- `CTE` (Common Table Expressions) – Used for churn logic and trend building
-- `ROW_NUMBER()` – To find the latest plan per user
-- `DATEDIFF()` – To detect user inactivity and churn periods
+- Aggregations (`SUM`, `AVG`, `COUNT`)
+- Joins (INNER, LEFT)
+- **Window Functions** (`ROW_NUMBER()`, `NTILE()`)
+- Common Table Expressions (**CTEs**)
+- Date & time operations (`DATEDIFF`, `FORMAT`)
+- Conditional logic (`CASE`, `COALESCE`)
 
-## 📌 Sample Query – Top 5 Revenue Customers
+---
 
-```sql
-SELECT TOP 5 
-    c.CustomerID, 
-    c.Gender,
-    SUM(u.TotalRevenue) AS Total_Revenue
-FROM Jazz_Telecom_Customers c
-JOIN Usage_Log u ON c.CustomerID = u.CustomerID
-GROUP BY c.CustomerID, c.Gender
-ORDER BY Total_Revenue DESC;
+## ⚙️ Challenges Faced & Solutions
+
+| **Challenge**                        | **Solution**                                                                 |
+|-------------------------------------|------------------------------------------------------------------------------|
+| Handling inactive months            | Used `LEFT JOIN` and `COALESCE()` to include customers with missing usage   |
+| Churn detection logic               | Created `LastUsage` CTE and applied `DATEDIFF()` to identify inactivity     |
+| Identifying plan changes over time  | Used `ROW_NUMBER()` to extract the latest plan per customer                 |
+
+---
+
+## 💼 Final Thoughts
+
+This project demonstrates how SQL can provide **real-time business value** in telecom analytics. It showcases skills in:
+
+- Data modeling  
+- Writing efficient queries  
+- Solving real business problems  
+- Drawing actionable insights
+
+Such analysis is crucial for **data-driven telecom companies like Jazz Pakistan** that aim to enhance user experience, reduce churn, and increase profitability.
+
+---
+
+## 📂 Folder Structure
 
 
---- 
-## 🚧 Challenges Faced & Solutions
 
-1. **Handling Inactive Months**  
-   *Problem:* Missing user activity data caused inconsistencies in monthly trend analysis.  
-   *Solution:* Applied LEFT JOIN with a calendar table and used COALESCE() to ensure complete month-by-month data continuity.
 
-2. **Detecting Customer Churn**  
-   *Problem:* The dataset lacked an explicit churn indicator.  
-   *Solution:* Built a Common Table Expression (CTE) to calculate last usage per customer and used DATEDIFF() to identify users inactive for 30+ days.
-
-3. **Tracking Latest Plan Type**  
-   *Problem:* Needed to extract each customer's most recent plan after multiple plan changes.  
-   *Solution:* Used ROW_NUMBER() on the PlanChangeLog table, partitioned by CustomerID and ordered by ChangeDate DESC, to isolate the latest plan per user.
-
-## 🧠 Final Thoughts
-
-This project showcases how pure SQL can be used to drive real business impact—without the need for dashboards or external tools. It reflects strong skills in:
-
-✅ Data modeling and architecture  
-✅ Writing optimized, modular SQL queries  
-✅ Translating raw data into business value and strategic insight  
-
-By combining SQL expertise with deep business understanding, this project demonstrates the powerful role of data analytics in the telecom sector.
-
-## 📬 Let's Connect
-
-**Khurram Naveed**  
-📧 khurramnaveed4545@gmail.com  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
