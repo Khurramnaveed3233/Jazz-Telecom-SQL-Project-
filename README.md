@@ -22,61 +22,61 @@ This project addresses these pain points through structured SQL-driven data anal
 
 ## ✅ Business Questions Solved with SQL + Insights & Recommendations
 
-### 1. 📈 What is the Monthly ARPU (Average Revenue Per User)?
+### 1. What is the Monthly ARPU (Average Revenue Per User)?
 **Insight:** Revenue fluctuates across months, with some months showing noticeably higher average spend.  
 **Recommendation:** Use high ARPU months to replicate promotional or pricing strategies that worked.
 
 ---
 
-### 2. 👑 Who are the Top 5 Revenue-Generating Customers?
+### 2. Who are the Top 5 Revenue-Generating Customers?
 **Insight:** A small portion of customers generate a large part of the revenue.  
 **Recommendation:** Retain and reward high-value users with loyalty programs or exclusive offers.
 
 ---
 
-### 3. 🌍 Which regions or genders generate the most revenue?
+### 3. Which regions or genders generate the most revenue?
 **Insight:** Male users in cities like Lahore and Islamabad show higher average charges.  
 **Recommendation:** Tailor pricing or marketing strategies for high-performing demographics and regions.
 
 ---
 
-### 4. 🧍‍♂️ What is the customer churn rate over time?
+### 4. What is the customer churn rate over time?
 **Insight:** Several customers show no usage for over 2 months — signaling churn.  
 **Recommendation:** Trigger reactivation campaigns or exit surveys for these users.
 
 ---
 
-### 5. 📞📶 What are the monthly trends in call minutes vs. data usage?
+### 5.  What are the monthly trends in call minutes vs. data usage?
 **Insight:** Data usage is rising faster than call minutes over time.  
 **Recommendation:** Focus on high-speed data plans and bundles to match user demand.
 
 ---
 
-### 6. 📊 Which services (Call, SMS, Data) are most used?
+### 6.  Which services (Call, SMS, Data) are most used?
 **Insight:** Data dominates usage patterns, while SMS is declining.  
 **Recommendation:** Prioritize internet-focused plans and consider phasing out unused SMS bundles.
 
 ---
 
-### 7. 💰 Are Prepaid or Postpaid users more profitable?
+### 7.  Are Prepaid or Postpaid users more profitable?
 **Insight:** Postpaid users show higher ARPU on average.  
 **Recommendation:** Upsell prepaid users into postpaid plans with attractive packages.
 
 ---
 
-### 8. 🚻 Which gender has a higher churn rate?
+### 8.  Which gender has a higher churn rate?
 **Insight:** Female users have a slightly higher churn rate in this dataset.  
 **Recommendation:** Investigate the causes and develop engagement strategies tailored to female users.
 
 ---
 
-### 9. 🔁 How many customers switched plan types?
+### 9.  How many customers switched plan types?
 **Insight:** Several customers moved between prepaid and postpaid within months.  
 **Recommendation:** Monitor migration patterns to improve retention within each plan type.
 
 ---
 
-### 10. 🆕 What is the latest plan type per customer?
+### 10.  What is the latest plan type per customer?
 **Insight:** Some users switched plans multiple times, indicating dissatisfaction or exploration.  
 **Recommendation:** Streamline offerings or improve customer onboarding to reduce switching frequency.
 
@@ -88,29 +88,29 @@ This project addresses these pain points through structured SQL-driven data anal
 
 ---
 
-### 12. 📉 What is the monthly data usage trend by plan type?
+### 12.  What is the monthly data usage trend by plan type?
 **Insight:** Postpaid users consume more data compared to prepaid users.  
 **Recommendation:** Invest in unlimited or larger data plans for postpaid users to maximize retention.
 
 ---
 
-## 📊 Impact of the Project
+##  Impact of the Project
 
-- **🔍 Improved Customer Understanding**  
+- ** Improved Customer Understanding**  
   Segment-wise insights to design targeted marketing campaigns.
 
-- **💸 Optimized Revenue**  
+- ** Optimized Revenue**  
   Identified top spenders and high ARPU months.
 
-- **🛑 Reduced Churn**  
+- ** Reduced Churn**  
   Early churn signals allow timely retention strategies.
 
-- **🔄 Better Plan Management**  
+- ** Better Plan Management**  
   Plan migration patterns help evaluate offering performance.
 
 ---
 
-## 🛠️ Tools & Techniques
+## Tools & Techniques
 
 - **SQL Server**
 - **Structured Tables:**
@@ -129,7 +129,7 @@ This project addresses these pain points through structured SQL-driven data anal
 
 ---
 
-## ⚙️ Challenges Faced & Solutions
+## Challenges Faced & Solutions
 
 | **Challenge**                        | **Solution**                                                                 |
 |-------------------------------------|------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@ This project addresses these pain points through structured SQL-driven data anal
 
 ---
 
-## 💼 Final Thoughts
+##  Final Thoughts
 
 This project demonstrates how SQL can provide **real-time business value** in telecom analytics. It showcases skills in:
 
@@ -152,7 +152,7 @@ Such analysis is crucial for **data-driven telecom companies like Jazz Pakistan*
 
 ---
 
-## 📂 Folder Structure
+## About Me
 
 
 
